@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:lightpink;
+    /* width: 20vw; */
+    font-size: 30px;
+    height: 150vh;
+    font-weight:bolder;
+    /* color: white; */
+}
+.sidebar nav{
+    padding: 72px;
+}
+ 
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+/* @media only screen and (max-width:780px){
+    .sidebar{
+        background-color: yellow;
+    }
+} */
+.main{
+    background-color:yellow;
+    /* background-image: url("abc.jpg"); */
+    width: 180vw;
+    height: 150vh;
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    margin: 250px auto;
+    background-color:whi;
+    height: 25vw;
+    width: 120vh;
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url("back.jpeg" ); */
+ 
+}
+.infoContainer nav li{
+    list-style: none;
+}
+.devinfo{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+}
+.devPic img{
+    height: 47vh;
+}
+
+.hello{
+    font-size: 50px;
+    color: red;
+    border: darkred;
+}
+.name{
+    font-size: 45px;
+    font-weight:bolder;
+}
+.about{
+    font-size: 30px;
+
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(30, 255, 244);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3px;
+}
+.btn-sm{
+    font-size: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.contactform{
+    font-family:initial;
+    padding: 0 34px;
+    padding-top: 100px;
+    font-size: 20px;
+    display:flexbox;
+    width: 120vw;
+    height: 150vw;
+    background-color:red;
+}
+
+
+.contactform h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#emailHelp{
+    font-size: 20px;
+    color:black;
+    margin:10px;
+}
+.contactform form div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+    width:20px;
+    margin: 3px;
+}
+
+.skillform{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    padding: 30px;
+    padding-top: 100px;
+    display: flexbox;
+    background-color:white; 
+    width: 120vw;
+    height: 107vh;
+
+}
+.skillxyz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px; 
+
+}
+.skillform h1{
+    font-size: 90px;
+}
+.skillform h2{
+    font-size: 30px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+    transition: transform 0.5s ease-in;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.hamburger h3{
+    margin-left:1600px ;
+    top: 20px;
+}
+.cross{
+    margin-left: 290px;
+}
+
+.call{
+    margin-left:1500px ;
+}
+.collegeform {
+    position: static;
+    top: 10px;
+    margin: 10px;
+    background-color:white;
+}
+.collegeform h1{
+    margin-left: 400px;
+    position: static;
+    top: 50px;
+    color:black;
+    font-size: 60px;
+    text-decoration: underline;
+    /* text-align: right;  */
+}
+.collegeform h3{
+    margin-left: 400px;
+    position: static;
+    top: 200px;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    text-align: left; 
+    text-decoration: underline;
+}
+.collinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+.introduce{
+    height: 30vw;
+    background-color: deeppink;
+    
+}
+.introduce h1{
+    text-align: center;
+    font-weight: 800px;
+    font-size: 60px;
+    font-weight:bolder;
+      
+}
+
+.introduce h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+    font-style: normal;
+}
+.introduce p{
+    text-align: center;
+    font-size: 40px;
+    font-weight:600px;
+    
+
+}
+.introduce h3{
+    text-align: center; 
+    font-weight: px;
+    font-size: 25px;
+      
+}
+.devel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+    background-color: deeppink;
+
+}
